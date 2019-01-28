@@ -20,3 +20,11 @@
 div {
     display: block;
 }
+
+.article>span {
+    font-size: 1.15em;
+    width: 85%;
+    margin: 7px 7.5%;
+    float: left;
+    color: #333;
+}

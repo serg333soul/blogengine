@@ -1,0 +1,22 @@
+.flex-cont {
+    justify-content: center;
+  }
+
+
+.flex-cont {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+}
+
+.article {
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+div {
+    display: block;
+}

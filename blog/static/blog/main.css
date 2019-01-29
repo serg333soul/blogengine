@@ -9,7 +9,15 @@
     width: 100%;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
 .article {
+    flex-basis: 45%;
+    margin-right: 2%;
     margin-bottom: 20px;
     border: 1px solid #e3e3e3;
     background-color: #fff;
@@ -27,4 +35,8 @@ div {
     margin: 7px 7.5%;
     float: left;
     color: #333;
+}
+
+.card-header {
+  font-size: 0.8em;
 }

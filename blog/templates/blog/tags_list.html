@@ -6,9 +6,13 @@
 
 {% block content %}
   <h1 class="mb-5">Tags:</h1>
-
-  {% for tag in tags %}
-    <h3><a href="{{ tag.get_absolute_url }}">{{ tag.title }}</a></h3>
-  {% endfor %}
-
+  <div class="p-3">
+    {% for tag in tags %}
+      <h3 class="font-italic">
+        <ol class="list-unstyled mb-0">
+          <a href="{{ tag.get_absolute_url }}">{{ tag.title }}</a>
+        </ol>
+      </h3>
+    {% endfor %}
+  </div>
 {% endblock %}

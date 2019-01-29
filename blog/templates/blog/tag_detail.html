@@ -5,10 +5,12 @@
 {% endblock %}
 
 {% block content %}
-  <h1 class="mb-5">Post with "{{ tag.title|title }}" tag:</h1>
+  <h5 class="mb-5">Post with "{{ tag.title|title }}" tag:</h5>
+  <div class="mb-5">
+    {% for post in tag.posts.all %}
+        {% include 'blog/includes/post_card_template.html' %}
+    {% endfor %}
+  </div>
 
-  {% for post in tag.posts.all %}
-    {% include 'blog/includes/post_card_template.html' %}
-  {% endfor %}
 
 {% endblock %}

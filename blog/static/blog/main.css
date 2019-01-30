@@ -40,3 +40,38 @@ div {
 .card-header {
   font-size: 0.8em;
 }
+
+.row {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.col {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+}
+
+.card {
+  width: 300px;
+}
